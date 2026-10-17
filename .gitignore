@@ -1,0 +1,13 @@
+.dart_tool/
+.packages
+pubspec.lock
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.env
+.env.*
+*.db
+.secrets/
+*.log
+.DS_Store
+.idea/

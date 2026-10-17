@@ -1,0 +1,4 @@
+unfurlr_any_link_preview/
+.dart_tool/
+pubspec.lock
+build/

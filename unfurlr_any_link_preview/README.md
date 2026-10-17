@@ -2,7 +2,20 @@
 
 **Live demo and free key:** https://unfurlr.onrender.com/?ref=gh-flutter
 
-**UNTESTED skeleton:** Flutter isn't installed on the build box, so this package has never been compiled or run. The `unfurlr` core package it depends on is tested.
+## Install
+
+Not on pub.dev yet. Add both packages from GitHub in your app's `pubspec.yaml`:
+
+```yaml
+dependencies:
+  unfurlr_any_link_preview:
+    git:
+      url: https://github.com/smaranje/flutter-unfurlr
+      ref: main
+      path: unfurlr_any_link_preview
+```
+
+Then run `flutter pub get`. (The core `unfurlr` package is pulled from the same repo automatically.)
 
 `any_link_preview` fetches pages straight from the browser, so on Flutter Web it fails with CORS ("XMLHttpRequest error"). This package fetches through unfurlr instead and hands any_link_preview's `Metadata` to your existing `itemBuilder`.
 
